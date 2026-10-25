@@ -1,0 +1,11 @@
+package br.ufal.ic.p2.wepayu.exceptions;
+
+public class DataFinalInvalidaException extends Exception {
+    public DataFinalInvalidaException() {
+        super("Data final invalida.");
+    }
+
+    public DataFinalInvalidaException(String mensagem) {
+        super(mensagem);
+    }
+}

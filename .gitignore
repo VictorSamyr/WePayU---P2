@@ -3,6 +3,8 @@
 out/
 wepayu.dat
 /folha-*.txt
+*.zip
+tmp/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
